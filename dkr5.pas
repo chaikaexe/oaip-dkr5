@@ -142,7 +142,6 @@ begin
     reset(output);
     read(output, s);
     close(output);
-    rewrite(output);
     write(s);
     writeln;
     writeln('Время выполнения: ', stop - start, ' секнуд, ', abs(stop1 - start1), ' милисекунд');
